@@ -1,0 +1,18 @@
+Opgave 1 loesning
+  For at gøre det fjernede jeg funktionen generate, og rykkede de 2 random x og y positioner op under Firkant(). 
+  Jeg fjernede dem fra klassens metoder
+
+Opgave 2 loesning
+  Indsatte en ny float i attributter (float r,g,b;), og tilføjede en random til r, g og b under kontruktøren. 
+  Random funktionen var mellem 0 og 256, da den eksludere det sidste tal og fill funktionen kun går til 255.
+  I funktoinen drawFirkant tilføjedede jeg over square funktionen en fill, med de 3 variabler r, g og b. 
+  Jeg ryttede selvfølgelig op efter mig selv med: fill(0,0,0);
+
+Opgave 3 Loesning
+  Lavede samme funktion som drawFirkant i class Firkant, istedet for square komando benyttede jeg mig a circle
+
+Opgave 4
+  Under void draw tilføjede jeg en integer kaldet form, den modtager en radom floatværdi mellem der bliver konverteret til en interger. 
+  Det betyder jeg får en værdi på 0 eller 1. 
+  Nedenunder er der et ifstatement, som tjekker hvis form værdien er 0, hvis den er 0 bruger den firkant funktionen. 
+  Nedenunder ifstatementet er en else, som laver en cirkel hvis form værdien ikke er 0.
